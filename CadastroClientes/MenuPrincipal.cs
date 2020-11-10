@@ -12,10 +12,10 @@ using System.Windows.Forms;
 
 namespace CadastroClientes
 {
-    public partial class Form1 : Form
+    public partial class MenuPrincipal : Form
     {
         private List<Cliente> ListaClientes;
-        public Form1()
+        public MenuPrincipal()
         {
             InitializeComponent();
             ListaClientes = new List<Cliente>();
@@ -53,6 +53,12 @@ namespace CadastroClientes
         {
             PesquisaCliente pesquisaCliente = new PesquisaCliente(ListaClientes);
             pesquisaCliente.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            AgendarCliente agendarCliente = new AgendarCliente(ListaClientes);
+            agendarCliente.Show();
         }
     }
 }

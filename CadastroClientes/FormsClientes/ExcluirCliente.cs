@@ -20,7 +20,7 @@ namespace CadastroClientes.FormsClientes
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int idExcluir = Convert.ToInt32(textBoxIDExcluir.Text);
+            int idExcluir = Convert.ToInt32(txtIDBuscar.Text);
             Cliente cliente = ListaClientes.Find(cliente => cliente.ID == idExcluir);
             ListaClientes.Remove(cliente);
             this.Close();
@@ -28,6 +28,41 @@ namespace CadastroClientes.FormsClientes
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int idBuscar = Convert.ToInt32(txtIDBuscar.Text);
+            Cliente cliente = ListaClientes.Find(Cliente => Cliente.ID == idBuscar);
+
+            txtNome.Text = cliente.Nome;
+            txtEmail.Text = cliente.Email;
+            txtFone.Text = cliente.Fone;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int idEditar = Convert.ToInt32(txtIDBuscar.Text);
+            Cliente cliente = ListaClientes.Find(Cliente => Cliente.ID == idEditar);
+
+
+            DialogResult editar = MessageBox.Show("Confirma as ediçoes?", "Mensagem do sistema!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (editar == DialogResult.Yes)
+            {
+                cliente.Nome = txtNome.Text;
+                cliente.Email = txtEmail.Text;
+                txtFone.Text = cliente.Fone = txtFone.Text;
+
+                limpaBoxes();
+            }
+        }
+        private void limpaBoxes()
+        {
+            txtNome.Clear();
+            txtEmail.Clear();
+            txtFone.Clear();
 
         }
     }

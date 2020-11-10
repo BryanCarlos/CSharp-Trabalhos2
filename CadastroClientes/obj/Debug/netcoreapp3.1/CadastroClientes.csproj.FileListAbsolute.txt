@@ -25,7 +25,6 @@ C:\Users\Bryan\source\repos\Arrumar\CadastroClientes\CadastroClientes\bin\Debug\
 C:\Users\Bryan\source\repos\Arrumar\CadastroClientes\CadastroClientes\bin\Debug\netcoreapp3.1\CadastroClientes.dll
 C:\Users\Bryan\source\repos\Arrumar\CadastroClientes\CadastroClientes\bin\Debug\netcoreapp3.1\CadastroClientes.pdb
 C:\Users\Bryan\source\repos\Arrumar\CadastroClientes\CadastroClientes\obj\Debug\netcoreapp3.1\CadastroClientes.csprojAssemblyReference.cache
-C:\Users\Bryan\source\repos\Arrumar\CadastroClientes\CadastroClientes\obj\Debug\netcoreapp3.1\CadastroClientes.Form1.resources
 C:\Users\Bryan\source\repos\Arrumar\CadastroClientes\CadastroClientes\obj\Debug\netcoreapp3.1\CadastroClientes.FormsClientes.ExcluirCliente.resources
 C:\Users\Bryan\source\repos\Arrumar\CadastroClientes\CadastroClientes\obj\Debug\netcoreapp3.1\CadastroClientes.FormsClientes.InserirCliente.resources
 C:\Users\Bryan\source\repos\Arrumar\CadastroClientes\CadastroClientes\obj\Debug\netcoreapp3.1\CadastroClientes.FormsClientes.ListarCliente.resources
@@ -38,3 +37,5 @@ C:\Users\Bryan\source\repos\Arrumar\CadastroClientes\CadastroClientes\obj\Debug\
 C:\Users\Bryan\source\repos\Arrumar\CadastroClientes\CadastroClientes\obj\Debug\netcoreapp3.1\CadastroClientes.dll
 C:\Users\Bryan\source\repos\Arrumar\CadastroClientes\CadastroClientes\obj\Debug\netcoreapp3.1\CadastroClientes.pdb
 C:\Users\Bryan\source\repos\Arrumar\CadastroClientes\CadastroClientes\obj\Debug\netcoreapp3.1\CadastroClientes.genruntimeconfig.cache
+C:\Users\Bryan\source\repos\Arrumar\CadastroClientes\CadastroClientes\obj\Debug\netcoreapp3.1\CadastroClientes.FormsClientes.AgendarCliente.resources
+C:\Users\Bryan\source\repos\Arrumar\CadastroClientes\CadastroClientes\obj\Debug\netcoreapp3.1\CadastroClientes.MenuPrincipal.resources
